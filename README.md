@@ -9,8 +9,7 @@ This is the minitool to shuffle and re-index testcase of **Principle of Programi
  3.  Run command
     > python suffleTestcase.py
 
-This command will find every `*Suite.py` file in `test\`, shuffle it and output to `*Suite_shuffled.py`
-
+This command will find every `*Suite.py` files in folder `test\`, shuffle them and output to `*Suite_shuffled.py`
 ## License
 
 Testcase shuffle is licensed under the [MIT license](./LICENSE).
