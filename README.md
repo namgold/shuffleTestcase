@@ -7,7 +7,9 @@ This is the minitool to shuffle and re-index testcase of **Principle of Programi
  1. Copy `suffleTestcase.py` to **src** folder
  2. Open terminal/console at **src**
  3.  Run command
-    > python suffleTestcase.py
+  ```
+  > python suffleTestcase.py
+  ```
 
 This command will find every `*Suite.py` files in folder `test\`, shuffle them then output to `*Suite_shuffled.py`
 ## License
