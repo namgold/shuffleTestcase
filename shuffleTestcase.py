@@ -1,4 +1,6 @@
-import os, re, random
+import os
+import re
+import random
 
 files_in_test = os.listdir('./test')
 for i in files_in_test:
@@ -14,7 +16,7 @@ for i in files_in_test:
         try: suite_id = int(matches[0][-5:-4]) * 100
         except: suite_id = 0
         for pi, i in enumerate(matches):
-            matches[pi] = re.sub(",\s*\d+\)\)", ", " + str(pi + suite_id) + "))", i)
+            matches[pi] = re.sub(r",\s*\d+\)\)", ", " + str(pi + suite_id) + "))", i)
         output=header + "\n".join(matches)
         open(filename[:-3]+"_shuffled.py",'w').write(output)
 
