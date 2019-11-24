@@ -13,7 +13,7 @@ def init():
         # sf = True if input("Shuffle testcase? (N): ").lower() in ['y','yes'] else False
 init()
 
-suiteLst = {"LexerSuite": 100, "ParserSuite": 200, "ASTGenSuite": 300, "CheckerSuite":400, 'CodeGenSuite':500}
+suiteLst = {"LexerSuite": 100, "ParserSuite": 200, "ASTGenSuite": 300, "CheckerSuite":400, "CheckSuite":400, 'CodeGenSuite':500}
 files_in_test = os.listdir('./test')
 for filename in files_in_test:
     if filename[:-3] in suiteLst:
