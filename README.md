@@ -4,7 +4,7 @@ This is the minitool to shuffle and re-index testcase of **Principle of Programi
 
 ## Usage
 
- 1. Copy `suffleTestcase.py` to **src** folder
+ 1. Copy `shuffleTestcase.py` to **src** folder
  2. Open terminal/console at **src**
  3.  Run command
   ```
